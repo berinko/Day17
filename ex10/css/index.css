@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(22, 20, 20);
+    color: white;
+}
+#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+#left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#signin {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 20px;
+}
+#signin form {
+    width: 80%;
+    padding-bottom: 45px;
+}
+#signin .logo {
+    margin-bottom: 8vh;
+}
+#signin .logo img {
+    width: 300px;
+}
+#signin label {
+    line-height: 2rem;
+    font-weight:500;
+    font-size:0.9rem;
+}
+#signin .textinput {
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius:2px;
+    background: rgb(22, 20, 20);
+    border: 1px solid #555;
+}
+.primary-btn {
+    padding: 0.7rem 1rem;
+    height: 2.4rem;
+    display:block;
+    border: 0;
+    border-radius: 2px;
+    background: rgb(89, 133, 187);
+    color: white;
+
+}
+#signin .primary-btn {
+    width: 100%;
+}
+input.text-input {
+    background: rgb(22, 20, 20);
+    width:100%;
+    margin-bottom: 15px;
+    
+}
+
+div#links a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color:rgb(89, 133, 187);
+    margin-bottom: 1rem;
+
+}
+.secondary-btn {
+    padding: 0.7rem 1rem;
+    height: 2.4rem;
+    display:block;
+    border: 0;
+    border-radius: 2px;
+    background: grey;
+    color: white;
+    text-decoration: none;
+
+}
+a.secondary-btn {
+    width: 80%;
+    text-align: center;
+}
+footer#main-footer {
+    text-align: center;
+    font-size: small;
+    text-decoration:none;
+}
+div.linkovi {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#right {
+    flex: 2;
+}
+#showcase {
+    background-image: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+h1.showcase-text {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+a.secondary-btn {
+    width: 80%;
+    margin: auto;
+}
+#bar {
+    width:100%;
+    display:flex;
+}
+div.linkovi a {
+    text-decoration: none;
+    color:white;
+}
+div.hr-bar {
+    width:80%;
+}
